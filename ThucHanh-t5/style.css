@@ -354,7 +354,13 @@
 }
 
 .ingredient-product {
-    margin: 0 120px;
+    margin: 100px 120px;
+    position: relative;
+}
+
+.ingredient-product h1 {
+    color: #323842;
+    margin-bottom: 40px;
 }
 
 .ingredient-product-list {
@@ -363,5 +369,39 @@
 }
 
 .ingredient-product-item {
+    width: 25%;
+}
+
+.ingredient-product-item img{
+    border-radius: 10px;
+}
+
+.ingredient-product h3 {
+    color: #323842;
+    margin: 10px 0;
+}
+
+.ingredient-product span {
+    color: #666;
+}
+
+.ingredient-product-btn {
+    background-color: #fff;
+    border: 2px solid #459D7a;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     
 }
+
+.ingredient-product-btn span {
+    color: #459D7a;
+}
+
+.how-to-use {
+    margin: 150px 0 140px 140px;
+}
+
