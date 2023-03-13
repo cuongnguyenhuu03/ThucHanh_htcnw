@@ -402,6 +402,24 @@
 }
 
 .how-to-use {
-    margin: 150px 0 140px 140px;
+    margin: 150px 150px 140px 140px;
+    position: relative;
+}
+
+.how-to-use h1 {
+    margin-bottom: 20px;
+}
+
+.play-video {
+    position: absolute;
+    padding: 14px 40px;
+    background-color: #323842;
+    width: fit-content;
+    color: #999;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
 }
 
