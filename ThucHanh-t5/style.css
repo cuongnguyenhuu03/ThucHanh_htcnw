@@ -423,3 +423,39 @@
     cursor: pointer;
 }
 
+.review {
+    padding: 0 120px;
+}
+
+.review-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.write-rieview {
+    display: flex;
+    border: 2px solid #459D7a;
+    color: #459D7a;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.specific-review {
+    display: flex;
+    margin-top: 40px;
+}
+
+.specific-review-rank {
+    width: fit-content;
+    margin-right: 200px;
+}
+
+.specific-review-rank-total {
+    display: flex;
+    align-items: center;
+}
+
+.specific-review-rank-total img {
+    margin: 0 10px 0 10px;
+}
