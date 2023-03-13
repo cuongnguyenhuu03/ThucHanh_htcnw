@@ -507,3 +507,167 @@
 .specific-review-eg-user-name span {
     margin-left: 10px;
 }
+
+.review-number {
+    margin-left: 600px;
+}
+
+.review-number-list {
+    display: flex;
+    list-style: none;
+}
+
+.review-number-list li {
+    display: block;
+    padding: 5px 9px ;
+    margin: 5px;
+}
+
+.review-number-list-active {
+    color: #459D7a;
+    border: 1px solid #459D7a;
+    border-radius: 50%;
+}
+
+.faqs {
+    margin: 60px 120px 0 120px;
+}
+
+.faqs-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqs-total-left {
+    width: 48%;
+}
+
+.faqs-total-right {
+    width: 48%;
+}
+
+.faqs-total-item-active {
+    border:1px solid #459D7a !important;
+}
+
+.faqs-total-item-active span {
+    color:  #459D7a !important;
+}
+
+
+.faqs-total-item {
+    border: 1px solid #666;
+    padding: 10px 60px 20px 20px;
+    margin: 18px 0;
+    border-radius: 4px;
+}
+
+.faqs-total-item span{
+    color: #666;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    height: 435px;
+    background-color: #1D2128;
+    margin-left: 8px;
+}
+
+ .info {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 130px;
+  }
+
+.about,
+.help,
+.contact {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.about li,
+.help li,
+.contact li{
+    color: #DDE0E5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 18px;
+}
+
+.about li h1,
+.help li h1,
+.contact li h1{
+    font-size: 20px;
+}
+
+.about select{
+    height: 35px;
+    width: 125px;
+    color: #ffffff; 
+    background-color: #1D2128;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.notification{
+    margin-top: 90px;
+    margin-right: 150px;
+}
+
+.notification > ul{
+    color: #DDE0E5;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+.notification li{
+    margin-top: 15px;
+}
+
+.notification li h1{
+    font-size: 25px;
+}
+
+.submit{
+    display: flex;
+}
+
+.submit .input{
+    font-size: 20px;
+    border-radius: 10px 0px 0px 10px;
+    height: 50px;
+    width: 300px;
+    border-right: 0px;
+    background-color: #1D2128;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.submit .submit{
+    font-size: 20px;
+    border-left: 0px;
+    border-radius: 0px 10px 10px 0px;
+    height: 50px;
+    width: 130px;
+    background-color: #459D7A;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.pts{
+    display: flex;
+
+}
+
+.pts li{
+    margin-right: 25px;
+}
+
+.pts-none{
+    list-style-type: none;
+}
+
