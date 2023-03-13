@@ -459,3 +459,38 @@
 .specific-review-rank-total img {
     margin: 0 10px 0 10px;
 }
+
+.specific-review-rating {
+    list-style: none;
+}
+
+.specific-review-rating-item {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.specific-review-rating-star {
+    margin: 0 10px;
+}
+
+.specific-review-rating-item p {
+    margin-left: 10px;
+}
+
+.specific-review-eg-list {
+    list-style: none;
+}
+
+.specific-review-eg-item {
+    margin-bottom: 40px;
+}
+
+.specific-review-eg-user {
+    display: flex;
+}
+
+.specific-review-eg-user-img {
+    width: 50px;
+    height: 50px;
+}
